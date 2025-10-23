@@ -26,7 +26,7 @@ classifiers = [
     "Programming Language :: Python",
     "Topic :: Multimedia :: Graphics",
 ]
-dependencies = ["traitlets"]
+dependencies = ["traitlets", "matplotlib"]
 dynamic = ["version"]
 keywords = [
     "ipython",
@@ -44,7 +44,6 @@ inline = "matplotlib_inline.backend_inline"
 [project.optional-dependencies]
 test = [
     "flake8",
-    "matplotlib",
     "nbdime",
     "nbval",
     "notebook",
